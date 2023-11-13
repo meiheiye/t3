@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ljh/workspace/training/t3/httpserver/database/Connection_pool.h
+queue
+-
+mysql/mysql.h
+-
+
+/home/ljh/workspace/training/t3/httpserver/userinfo/data.cpp
+data.h
+/home/ljh/workspace/training/t3/httpserver/userinfo/data.h
+boost/archive/iterators/base64_from_binary.hpp
+-
+boost/archive/iterators/binary_from_base64.hpp
+-
+boost/archive/iterators/transform_width.hpp
+-
+boost/algorithm/hex.hpp
+-
+boost/uuid/detail/md5.hpp
+-
+boost/json.hpp
+-
+boost/json/src.hpp
+-
+sstream
+-
+iterator
+-
+string
+-
+iostream
+-
+
+/home/ljh/workspace/training/t3/httpserver/userinfo/data.h
+string
+-
+../database/Connection_pool.h
+/home/ljh/workspace/training/t3/httpserver/database/Connection_pool.h
+

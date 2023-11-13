@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/asio/asio_server.cpp.o CMakeFiles/main.dir/http/http_conn.cpp.o CMakeFiles/main.dir/userinfo/data.cpp.o CMakeFiles/main.dir/database/Connection_pool.cpp.o CMakeFiles/main.dir/log/log.cpp.o  -o main  -lmysqlclient -lpthread 
